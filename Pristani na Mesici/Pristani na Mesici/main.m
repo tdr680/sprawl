@@ -7,8 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Ship.h"
 
 int main(int argc, char *argv[])
 {
+    // NSLog (@"Let's go...");
+    
+    Ship *ship = [[Ship alloc] init];
+
     return NSApplicationMain(argc, (const char **)argv);
 }
