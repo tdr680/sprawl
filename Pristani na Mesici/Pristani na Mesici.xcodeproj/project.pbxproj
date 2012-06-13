@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C36CBDFF1589257300B13299 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36CBDFE1589257300B13299 /* Cocoa.framework */; };
+		C36CBE091589257300B13299 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C36CBE071589257300B13299 /* InfoPlist.strings */; };
+		C36CBE0B1589257300B13299 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C36CBE0A1589257300B13299 /* main.m */; };
+		C36CBE0F1589257300B13299 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C36CBE0D1589257300B13299 /* Credits.rtf */; };
+		C36CBE121589257300B13299 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C36CBE111589257300B13299 /* AppDelegate.m */; };
+		C36CBE151589257300B13299 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36CBE131589257300B13299 /* MainMenu.xib */; };
+		C36CBE1D1589257300B13299 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36CBE1C1589257300B13299 /* SenTestingKit.framework */; };
+		C36CBE1E1589257300B13299 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36CBDFE1589257300B13299 /* Cocoa.framework */; };
+		C36CBE261589257300B13299 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C36CBE241589257300B13299 /* InfoPlist.strings */; };
+		C36CBE291589257300B13299 /* Pristani_na_MesiciTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C36CBE281589257300B13299 /* Pristani_na_MesiciTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C36CBE1F1589257300B13299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C36CBDF11589257300B13299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36CBDF91589257300B13299;
+			remoteInfo = "Pristani na Mesici";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C36CBDFA1589257300B13299 /* Pristani na Mesici.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pristani na Mesici.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36CBDFE1589257300B13299 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C36CBE011589257300B13299 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C36CBE021589257300B13299 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C36CBE031589257300B13299 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C36CBE061589257300B13299 /* Pristani na Mesici-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pristani na Mesici-Info.plist"; sourceTree = "<group>"; };
+		C36CBE081589257300B13299 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C36CBE0A1589257300B13299 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C36CBE0C1589257300B13299 /* Pristani na Mesici-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pristani na Mesici-Prefix.pch"; sourceTree = "<group>"; };
+		C36CBE0E1589257300B13299 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C36CBE101589257300B13299 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C36CBE111589257300B13299 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C36CBE141589257300B13299 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C36CBE1B1589257300B13299 /* Pristani na MesiciTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pristani na MesiciTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36CBE1C1589257300B13299 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C36CBE231589257300B13299 /* Pristani na MesiciTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pristani na MesiciTests-Info.plist"; sourceTree = "<group>"; };
+		C36CBE251589257300B13299 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C36CBE271589257300B13299 /* Pristani_na_MesiciTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pristani_na_MesiciTests.h; sourceTree = "<group>"; };
+		C36CBE281589257300B13299 /* Pristani_na_MesiciTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pristani_na_MesiciTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C36CBDF71589257300B13299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36CBDFF1589257300B13299 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36CBE171589257300B13299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36CBE1D1589257300B13299 /* SenTestingKit.framework in Frameworks */,
+				C36CBE1E1589257300B13299 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C36CBDEF1589257300B13299 = {
+			isa = PBXGroup;
+			children = (
+				C36CBE041589257300B13299 /* Pristani na Mesici */,
+				C36CBE211589257300B13299 /* Pristani na MesiciTests */,
+				C36CBDFD1589257300B13299 /* Frameworks */,
+				C36CBDFB1589257300B13299 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C36CBDFB1589257300B13299 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36CBDFA1589257300B13299 /* Pristani na Mesici.app */,
+				C36CBE1B1589257300B13299 /* Pristani na MesiciTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C36CBDFD1589257300B13299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C36CBDFE1589257300B13299 /* Cocoa.framework */,
+				C36CBE1C1589257300B13299 /* SenTestingKit.framework */,
+				C36CBE001589257300B13299 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C36CBE001589257300B13299 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C36CBE011589257300B13299 /* AppKit.framework */,
+				C36CBE021589257300B13299 /* CoreData.framework */,
+				C36CBE031589257300B13299 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C36CBE041589257300B13299 /* Pristani na Mesici */ = {
+			isa = PBXGroup;
+			children = (
+				C36CBE101589257300B13299 /* AppDelegate.h */,
+				C36CBE111589257300B13299 /* AppDelegate.m */,
+				C36CBE131589257300B13299 /* MainMenu.xib */,
+				C36CBE051589257300B13299 /* Supporting Files */,
+			);
+			path = "Pristani na Mesici";
+			sourceTree = "<group>";
+		};
+		C36CBE051589257300B13299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C36CBE061589257300B13299 /* Pristani na Mesici-Info.plist */,
+				C36CBE071589257300B13299 /* InfoPlist.strings */,
+				C36CBE0A1589257300B13299 /* main.m */,
+				C36CBE0C1589257300B13299 /* Pristani na Mesici-Prefix.pch */,
+				C36CBE0D1589257300B13299 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C36CBE211589257300B13299 /* Pristani na MesiciTests */ = {
+			isa = PBXGroup;
+			children = (
+				C36CBE271589257300B13299 /* Pristani_na_MesiciTests.h */,
+				C36CBE281589257300B13299 /* Pristani_na_MesiciTests.m */,
+				C36CBE221589257300B13299 /* Supporting Files */,
+			);
+			path = "Pristani na MesiciTests";
+			sourceTree = "<group>";
+		};
+		C36CBE221589257300B13299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C36CBE231589257300B13299 /* Pristani na MesiciTests-Info.plist */,
+				C36CBE241589257300B13299 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C36CBDF91589257300B13299 /* Pristani na Mesici */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36CBE2C1589257300B13299 /* Build configuration list for PBXNativeTarget "Pristani na Mesici" */;
+			buildPhases = (
+				C36CBDF61589257300B13299 /* Sources */,
+				C36CBDF71589257300B13299 /* Frameworks */,
+				C36CBDF81589257300B13299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pristani na Mesici";
+			productName = "Pristani na Mesici";
+			productReference = C36CBDFA1589257300B13299 /* Pristani na Mesici.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C36CBE1A1589257300B13299 /* Pristani na MesiciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C36CBE2F1589257300B13299 /* Build configuration list for PBXNativeTarget "Pristani na MesiciTests" */;
+			buildPhases = (
+				C36CBE161589257300B13299 /* Sources */,
+				C36CBE171589257300B13299 /* Frameworks */,
+				C36CBE181589257300B13299 /* Resources */,
+				C36CBE191589257300B13299 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C36CBE201589257300B13299 /* PBXTargetDependency */,
+			);
+			name = "Pristani na MesiciTests";
+			productName = "Pristani na MesiciTests";
+			productReference = C36CBE1B1589257300B13299 /* Pristani na MesiciTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C36CBDF11589257300B13299 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C36CBDF41589257300B13299 /* Build configuration list for PBXProject "Pristani na Mesici" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C36CBDEF1589257300B13299;
+			productRefGroup = C36CBDFB1589257300B13299 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C36CBDF91589257300B13299 /* Pristani na Mesici */,
+				C36CBE1A1589257300B13299 /* Pristani na MesiciTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C36CBDF81589257300B13299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36CBE091589257300B13299 /* InfoPlist.strings in Resources */,
+				C36CBE0F1589257300B13299 /* Credits.rtf in Resources */,
+				C36CBE151589257300B13299 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36CBE181589257300B13299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36CBE261589257300B13299 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C36CBE191589257300B13299 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C36CBDF61589257300B13299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36CBE0B1589257300B13299 /* main.m in Sources */,
+				C36CBE121589257300B13299 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36CBE161589257300B13299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36CBE291589257300B13299 /* Pristani_na_MesiciTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C36CBE201589257300B13299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C36CBDF91589257300B13299 /* Pristani na Mesici */;
+			targetProxy = C36CBE1F1589257300B13299 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C36CBE071589257300B13299 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36CBE081589257300B13299 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C36CBE0D1589257300B13299 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36CBE0E1589257300B13299 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C36CBE131589257300B13299 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36CBE141589257300B13299 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C36CBE241589257300B13299 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36CBE251589257300B13299 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C36CBE2A1589257300B13299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C36CBE2B1589257300B13299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C36CBE2D1589257300B13299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pristani na Mesici/Pristani na Mesici-Prefix.pch";
+				INFOPLIST_FILE = "Pristani na Mesici/Pristani na Mesici-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C36CBE2E1589257300B13299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pristani na Mesici/Pristani na Mesici-Prefix.pch";
+				INFOPLIST_FILE = "Pristani na Mesici/Pristani na Mesici-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C36CBE301589257300B13299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pristani na Mesici.app/Contents/MacOS/Pristani na Mesici";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pristani na Mesici/Pristani na Mesici-Prefix.pch";
+				INFOPLIST_FILE = "Pristani na MesiciTests/Pristani na MesiciTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C36CBE311589257300B13299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pristani na Mesici.app/Contents/MacOS/Pristani na Mesici";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pristani na Mesici/Pristani na Mesici-Prefix.pch";
+				INFOPLIST_FILE = "Pristani na MesiciTests/Pristani na MesiciTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C36CBDF41589257300B13299 /* Build configuration list for PBXProject "Pristani na Mesici" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36CBE2A1589257300B13299 /* Debug */,
+				C36CBE2B1589257300B13299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36CBE2C1589257300B13299 /* Build configuration list for PBXNativeTarget "Pristani na Mesici" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36CBE2D1589257300B13299 /* Debug */,
+				C36CBE2E1589257300B13299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C36CBE2F1589257300B13299 /* Build configuration list for PBXNativeTarget "Pristani na MesiciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C36CBE301589257300B13299 /* Debug */,
+				C36CBE311589257300B13299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C36CBDF11589257300B13299 /* Project object */;
+}
