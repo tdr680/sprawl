@@ -8,8 +8,6 @@
 
 #import "Ship.h"
 
-const float G = -2.0;
-
 @implementation Ship
 
 -(void) setDefaults {

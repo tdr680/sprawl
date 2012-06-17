@@ -7,13 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "Ship.h"
+#import "Game.h"
 
 int main(int argc, char *argv[])
 {
     // NSLog (@"Let's go...");
     
-    Ship *ship = [[Ship alloc] init];
+    Game *game = [[Game alloc] init];
+    [game run];
 
     return NSApplicationMain(argc, (const char **)argv);
 }

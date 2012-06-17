@@ -15,7 +15,6 @@
 }
 
 -(Ship *) init;
-
 -(void) setDefaults;
 
 @end
