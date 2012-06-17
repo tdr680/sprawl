@@ -16,10 +16,34 @@
     palivo = 400;    
 }
 
--(Ship *) init {
-    self = [super init];
+-(Ship *) initWithGame:(id)aGame {
+    self = [self init];
     [self setDefaults];
+    [self setGame:aGame];
     return self;
 }
 
+-(float) vyska {
+    return vyska;
+}
+
+-(float) rychlost {
+    return rychlost;
+}
+
+-(int) palivo {
+    return palivo;
+}
+
+-(float) G {
+    return [game G];
+}
+
+-(void) setGame:(id)aGame {
+    game = aGame;
+}
+
+-(id) game {
+    return game;
+}
 @end

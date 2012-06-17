@@ -9,12 +9,25 @@
 #import <Foundation/Foundation.h>
 
 @interface Ship : NSObject {
+@private
     float vyska;
     float rychlost;
     int palivo;
+    id game;
 }
 
--(Ship *) init;
+-(Ship *) initWithGame:(id) aGame;
 -(void) setDefaults;
 
+// -(void) setVyska: (float) vyska;
+// -(void) setRychlost: (float) rychlost;
+// -(void) setPalivo: (int) palivo;
+
+-(float) vyska;
+-(float) rychlost;
+-(int) palivo;
+-(float) G;
+
+-(void) setGame:(id)aGame;
+-(id) game;
 @end

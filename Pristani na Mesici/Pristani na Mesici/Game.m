@@ -13,20 +13,28 @@
 -(Game *) init {
     self = [super init];
     self->G = -2.0;
-    ship = [[Ship alloc] init];
+    self->ship = [[Ship alloc] initWithGame:self];
     [self ready];
     return self;    
 }
 
 -(void) ready {
-    self->status = READY;
+    status = READY;
     round = 0;
     [ship setDefaults];
 }
 
+-(Ship *) ship {
+    return ship;
+}
+
+-(float) G {
+    return G;
+}
+
 -(void) run {
-    if (self->status == READY) {
-        self->status = RUNNING;
+    if (status == READY) {
+        status = RUNNING;
         
     }
 }
