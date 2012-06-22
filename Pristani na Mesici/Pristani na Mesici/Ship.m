@@ -52,6 +52,9 @@
     rychlost = rychlost+[self G]-([self G]/8)*b;
     vyska=vyska+rychlost;
     palivo = palivo - burn;
+    if (palivo < 0) {
+        palivo = 0;
+    }
 }
 
 @end
