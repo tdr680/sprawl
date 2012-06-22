@@ -16,17 +16,26 @@ enum gameStatus {
 };
 
 @interface Game : NSObject {
-@private
     int round;
     enum gameStatus status;
     Ship *ship;
     float G; //  -2.0
 }
 
++(Game *) instance;
 -(Game *) init;
--(void) run;
 
--(Ship *) ship;
+-(void) start;
+-(void) over;
+
+-(BOOL) isRunning;
+-(void) nextRound:(int)burn;
+
+-(int) round;
 -(float) G;
+-(Ship *) ship;
+
+-(BOOL) won;
+-(BOOL) lost;
 
 @end

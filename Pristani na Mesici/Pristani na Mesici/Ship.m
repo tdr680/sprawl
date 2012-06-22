@@ -46,4 +46,12 @@
 -(id) game {
     return game;
 }
+
+-(void) doStep:(float)burn {
+    float b = MIN(burn, palivo);
+    rychlost = rychlost+[self G]-([self G]/8)*b;
+    vyska=vyska+rychlost;
+    palivo = palivo - burn;
+}
+
 @end

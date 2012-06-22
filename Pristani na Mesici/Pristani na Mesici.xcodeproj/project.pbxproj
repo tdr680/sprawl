@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3332592158948F400947B77 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = C3332591158948F400947B77 /* Game.m */; };
 		C36CBDFF1589257300B13299 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36CBDFE1589257300B13299 /* Cocoa.framework */; };
 		C36CBE091589257300B13299 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C36CBE071589257300B13299 /* InfoPlist.strings */; };
 		C36CBE0B1589257300B13299 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C36CBE0A1589257300B13299 /* main.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3332590158948F400947B77 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		C3332591158948F400947B77 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		C36CBDFA1589257300B13299 /* Pristani na Mesici.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pristani na Mesici.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36CBDFE1589257300B13299 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C36CBE011589257300B13299 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 			children = (
 				C36CBE101589257300B13299 /* AppDelegate.h */,
 				C36CBE111589257300B13299 /* AppDelegate.m */,
+				C3332590158948F400947B77 /* Game.h */,
+				C3332591158948F400947B77 /* Game.m */,
 				C36CBE3215893C8200B13299 /* Ship.h */,
 				C36CBE3315893C8200B13299 /* Ship.m */,
 				C36CBE131589257300B13299 /* MainMenu.xib */,
@@ -268,6 +273,7 @@
 				C36CBE0B1589257300B13299 /* main.m in Sources */,
 				C36CBE121589257300B13299 /* AppDelegate.m in Sources */,
 				C36CBE3415893C8200B13299 /* Ship.m in Sources */,
+				C3332592158948F400947B77 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,10 +381,13 @@
 		C36CBE2D1589257300B13299 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pristani na Mesici/Pristani na Mesici-Prefix.pch";
 				INFOPLIST_FILE = "Pristani na Mesici/Pristani na Mesici-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -386,10 +395,13 @@
 		C36CBE2E1589257300B13299 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pristani na Mesici/Pristani na Mesici-Prefix.pch";
 				INFOPLIST_FILE = "Pristani na Mesici/Pristani na Mesici-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -441,6 +453,7 @@
 				C36CBE2E1589257300B13299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C36CBE2F1589257300B13299 /* Build configuration list for PBXNativeTarget "Pristani na MesiciTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +462,7 @@
 				C36CBE311589257300B13299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -30,4 +30,6 @@
 
 -(void) setGame:(id)aGame;
 -(id) game;
+
+-(void) doStep:(float)burn;
 @end

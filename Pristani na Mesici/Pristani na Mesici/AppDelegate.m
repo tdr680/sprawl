@@ -11,67 +11,57 @@
 
 @implementation AppDelegate
 
-int kolo = 1;
-
-float vyska = 500;
-float rychlost = -20;
-int palivo = 400;
-float g = -2;
-
-Boolean konec;
-
 @synthesize window = _window;
-
 @synthesize txtGo;
 @synthesize sldCell1;
-
 @synthesize lblKolo;
 @synthesize lblVyska;
 @synthesize lblRychlost;
 @synthesize lblPalivo;
-
 @synthesize btnKonec;
 
 - (void)doStep:(int)burn {
-    kolo++;
-    burn = MIN(burn, palivo);
-    rychlost = rychlost+g-(g/8)*(float)burn;
-    vyska=vyska+rychlost;
-    palivo = palivo - burn;
-    
-    if (vyska <= 0 && rychlost > -4) {
+    Game *game = [Game instance];
+    [game nextRound:burn];
+
+    if ([game won]) {
         [btnKonec setHidden:false];
         [btnKonec setTitle:@"Uspesne jsi pristal, gratuluji!"];
-        konec = true;
+        [game over];
     }
     
-    if (vyska <= 0 && rychlost <= -4) {
+    if ([game lost]) {
         [btnKonec setHidden:false];
         [btnKonec setTitle:@"Rychlost je prilis vysoka! Havaroval jsi."];
-        konec = true;
+        [game over];
     }    
 }
 
 - (void)updateUserInterface {
-    lblKolo.stringValue = [[NSString alloc] initWithFormat:@"%d. Kolo", kolo];    
-    lblVyska.stringValue = [[NSString alloc] initWithFormat:@"Vyska: %.1fm", vyska];    
-    lblRychlost.stringValue = [[NSString alloc] initWithFormat:@"Rychlost: %.1fm/s", rychlost];    
-    lblPalivo.stringValue = [[NSString alloc] initWithFormat:@"Palivo: %dkg", palivo];        
+    Game *game = [Game instance];
+
+    lblKolo.stringValue = [[NSString alloc] initWithFormat:@"%d. Kolo", [game round]];    
+    lblVyska.stringValue = [[NSString alloc] initWithFormat:@"Vyska: %.1fm", [[game ship] vyska]];    
+    lblRychlost.stringValue = [[NSString alloc] initWithFormat:@"Rychlost: %.1fm/s", [[game ship] rychlost]];    
+    lblPalivo.stringValue = [[NSString alloc] initWithFormat:@"Palivo: %dkg", [[game ship] palivo]];        
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // NSLog (@"Programming is fun!");
+    Game *game = [Game instance];
+    [game start];
     
     [self updateUserInterface];
-    konec = false;
     [btnKonec setHidden:true];
     [btnKonec setTitle:@""];
 }
 
 - (IBAction)textchanged:(id)sender {
     // NSLog(txtGo.stringValue);
-    if (!konec) {
+    Game *game = [Game instance];
+
+    if ([game isRunning]) {
         sldCell1.floatValue = txtGo.stringValue.floatValue;
         [self doStep: txtGo.stringValue.intValue];
         [self updateUserInterface];
@@ -85,17 +75,12 @@ Boolean konec;
 }
 
 - (IBAction)jeste_jednou:(id)sender {
-    kolo = 1;
-    vyska = 500;
-    rychlost = -20;
-    palivo = 400;
-    
+    Game *game = [Game instance];
+    [game start];
+   
     [self updateUserInterface];
-    konec = false;
     [btnKonec setHidden:true];
-    [btnKonec setTitle:@""];
-    
+    [btnKonec setTitle:@""];    
 }
-
 
 @end

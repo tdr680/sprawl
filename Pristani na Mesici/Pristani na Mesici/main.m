@@ -12,9 +12,7 @@
 int main(int argc, char *argv[])
 {
     // NSLog (@"Let's go...");
-    
-    Game *game = [[Game alloc] init];
-    [game run];
+    // Game *game = [Game instance];
 
     return NSApplicationMain(argc, (const char **)argv);
 }

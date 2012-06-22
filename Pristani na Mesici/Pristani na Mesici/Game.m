@@ -10,6 +10,15 @@
 
 @implementation Game
 
++(Game *)instance {
+    static Game *myInstance = nil;
+    
+    if (nil == myInstance) {
+        myInstance  = [[[self class] alloc] init];
+    }
+    return myInstance;
+}
+
 -(Game *) init {
     self = [super init];
     self->G = -2.0;
@@ -20,23 +29,49 @@
 
 -(void) ready {
     status = READY;
-    round = 0;
-    [ship setDefaults];
+    round = 1;
+    [ship setDefaults];    
 }
 
--(Ship *) ship {
-    return ship;
+-(void) start {
+    if (status != READY) {
+        [self ready];
+    }
+    status = RUNNING;
+}
+
+-(void) over {
+    status = FINISHED;
+}
+
+-(BOOL) isRunning {
+    return status == RUNNING;
+}
+
+-(void) nextRound:(int)burn {
+    round++;
+    [ship doStep:(float)burn];
+}
+
+-(int) round {
+    return round;
 }
 
 -(float) G {
     return G;
 }
 
--(void) run {
-    if (status == READY) {
-        status = RUNNING;
-        
-    }
+-(Ship *) ship {
+    return ship;
 }
+
+-(BOOL) won {
+    return ([ship vyska] <= 0 && [ship rychlost] > -4);
+}
+
+-(BOOL) lost {
+    return ([ship vyska] <= 0 && [ship rychlost] <= -4);
+}
+
 
 @end
