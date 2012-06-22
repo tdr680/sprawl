@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33325A41595149200947B77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33325A31595149200947B77 /* UIKit.framework */; };
+		C33325A61595149200947B77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33325A51595149200947B77 /* Foundation.framework */; };
+		C33325A81595149200947B77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33325A71595149200947B77 /* CoreGraphics.framework */; };
+		C33325AE1595149200947B77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C33325AC1595149200947B77 /* InfoPlist.strings */; };
+		C33325B01595149200947B77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C33325AF1595149200947B77 /* main.m */; };
+		C33325B41595149200947B77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C33325B31595149200947B77 /* AppDelegate.m */; };
+		C33325B71595149200947B77 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33325B51595149200947B77 /* MainStoryboard_iPhone.storyboard */; };
+		C33325BA1595149200947B77 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33325B81595149200947B77 /* MainStoryboard_iPad.storyboard */; };
+		C33325BD1595149200947B77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33325BC1595149200947B77 /* ViewController.m */; };
+		C33325C51595149200947B77 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33325C41595149200947B77 /* SenTestingKit.framework */; };
+		C33325C61595149200947B77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33325A31595149200947B77 /* UIKit.framework */; };
+		C33325C71595149200947B77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33325A51595149200947B77 /* Foundation.framework */; };
+		C33325CF1595149200947B77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C33325CD1595149200947B77 /* InfoPlist.strings */; };
+		C33325D21595149200947B77 /* Pristani_na_Mesici_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C33325D11595149200947B77 /* Pristani_na_Mesici_2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C33325C81595149200947B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33325961595149200947B77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C333259E1595149200947B77;
+			remoteInfo = "Pristani na Mesici 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C333259F1595149200947B77 /* Pristani na Mesici 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pristani na Mesici 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33325A31595149200947B77 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C33325A51595149200947B77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C33325A71595149200947B77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C33325AB1595149200947B77 /* Pristani na Mesici 2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pristani na Mesici 2-Info.plist"; sourceTree = "<group>"; };
+		C33325AD1595149200947B77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C33325AF1595149200947B77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C33325B11595149200947B77 /* Pristani na Mesici 2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pristani na Mesici 2-Prefix.pch"; sourceTree = "<group>"; };
+		C33325B21595149200947B77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C33325B31595149200947B77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C33325B61595149200947B77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C33325B91595149200947B77 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C33325BB1595149200947B77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C33325BC1595149200947B77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C33325C31595149200947B77 /* Pristani na Mesici 2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pristani na Mesici 2Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33325C41595149200947B77 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C33325CC1595149200947B77 /* Pristani na Mesici 2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pristani na Mesici 2Tests-Info.plist"; sourceTree = "<group>"; };
+		C33325CE1595149200947B77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C33325D01595149200947B77 /* Pristani_na_Mesici_2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pristani_na_Mesici_2Tests.h; sourceTree = "<group>"; };
+		C33325D11595149200947B77 /* Pristani_na_Mesici_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pristani_na_Mesici_2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C333259C1595149200947B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33325A41595149200947B77 /* UIKit.framework in Frameworks */,
+				C33325A61595149200947B77 /* Foundation.framework in Frameworks */,
+				C33325A81595149200947B77 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33325BF1595149200947B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33325C51595149200947B77 /* SenTestingKit.framework in Frameworks */,
+				C33325C61595149200947B77 /* UIKit.framework in Frameworks */,
+				C33325C71595149200947B77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33325941595149200947B77 = {
+			isa = PBXGroup;
+			children = (
+				C33325A91595149200947B77 /* Pristani na Mesici 2 */,
+				C33325CA1595149200947B77 /* Pristani na Mesici 2Tests */,
+				C33325A21595149200947B77 /* Frameworks */,
+				C33325A01595149200947B77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33325A01595149200947B77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C333259F1595149200947B77 /* Pristani na Mesici 2.app */,
+				C33325C31595149200947B77 /* Pristani na Mesici 2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33325A21595149200947B77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33325A31595149200947B77 /* UIKit.framework */,
+				C33325A51595149200947B77 /* Foundation.framework */,
+				C33325A71595149200947B77 /* CoreGraphics.framework */,
+				C33325C41595149200947B77 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C33325A91595149200947B77 /* Pristani na Mesici 2 */ = {
+			isa = PBXGroup;
+			children = (
+				C33325B21595149200947B77 /* AppDelegate.h */,
+				C33325B31595149200947B77 /* AppDelegate.m */,
+				C33325B51595149200947B77 /* MainStoryboard_iPhone.storyboard */,
+				C33325B81595149200947B77 /* MainStoryboard_iPad.storyboard */,
+				C33325BB1595149200947B77 /* ViewController.h */,
+				C33325BC1595149200947B77 /* ViewController.m */,
+				C33325AA1595149200947B77 /* Supporting Files */,
+			);
+			path = "Pristani na Mesici 2";
+			sourceTree = "<group>";
+		};
+		C33325AA1595149200947B77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33325AB1595149200947B77 /* Pristani na Mesici 2-Info.plist */,
+				C33325AC1595149200947B77 /* InfoPlist.strings */,
+				C33325AF1595149200947B77 /* main.m */,
+				C33325B11595149200947B77 /* Pristani na Mesici 2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C33325CA1595149200947B77 /* Pristani na Mesici 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C33325D01595149200947B77 /* Pristani_na_Mesici_2Tests.h */,
+				C33325D11595149200947B77 /* Pristani_na_Mesici_2Tests.m */,
+				C33325CB1595149200947B77 /* Supporting Files */,
+			);
+			path = "Pristani na Mesici 2Tests";
+			sourceTree = "<group>";
+		};
+		C33325CB1595149200947B77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33325CC1595149200947B77 /* Pristani na Mesici 2Tests-Info.plist */,
+				C33325CD1595149200947B77 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C333259E1595149200947B77 /* Pristani na Mesici 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33325D51595149200947B77 /* Build configuration list for PBXNativeTarget "Pristani na Mesici 2" */;
+			buildPhases = (
+				C333259B1595149200947B77 /* Sources */,
+				C333259C1595149200947B77 /* Frameworks */,
+				C333259D1595149200947B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pristani na Mesici 2";
+			productName = "Pristani na Mesici 2";
+			productReference = C333259F1595149200947B77 /* Pristani na Mesici 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C33325C21595149200947B77 /* Pristani na Mesici 2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33325D81595149200947B77 /* Build configuration list for PBXNativeTarget "Pristani na Mesici 2Tests" */;
+			buildPhases = (
+				C33325BE1595149200947B77 /* Sources */,
+				C33325BF1595149200947B77 /* Frameworks */,
+				C33325C01595149200947B77 /* Resources */,
+				C33325C11595149200947B77 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33325C91595149200947B77 /* PBXTargetDependency */,
+			);
+			name = "Pristani na Mesici 2Tests";
+			productName = "Pristani na Mesici 2Tests";
+			productReference = C33325C31595149200947B77 /* Pristani na Mesici 2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33325961595149200947B77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C33325991595149200947B77 /* Build configuration list for PBXProject "Pristani na Mesici 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C33325941595149200947B77;
+			productRefGroup = C33325A01595149200947B77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C333259E1595149200947B77 /* Pristani na Mesici 2 */,
+				C33325C21595149200947B77 /* Pristani na Mesici 2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C333259D1595149200947B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33325AE1595149200947B77 /* InfoPlist.strings in Resources */,
+				C33325B71595149200947B77 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C33325BA1595149200947B77 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33325C01595149200947B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33325CF1595149200947B77 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C33325C11595149200947B77 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C333259B1595149200947B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33325B01595149200947B77 /* main.m in Sources */,
+				C33325B41595149200947B77 /* AppDelegate.m in Sources */,
+				C33325BD1595149200947B77 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33325BE1595149200947B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33325D21595149200947B77 /* Pristani_na_Mesici_2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C33325C91595149200947B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C333259E1595149200947B77 /* Pristani na Mesici 2 */;
+			targetProxy = C33325C81595149200947B77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C33325AC1595149200947B77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33325AD1595149200947B77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C33325B51595149200947B77 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33325B61595149200947B77 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C33325B81595149200947B77 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33325B91595149200947B77 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C33325CD1595149200947B77 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33325CE1595149200947B77 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C33325D31595149200947B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C33325D41595149200947B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C33325D61595149200947B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pristani na Mesici 2/Pristani na Mesici 2-Prefix.pch";
+				INFOPLIST_FILE = "Pristani na Mesici 2/Pristani na Mesici 2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C33325D71595149200947B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pristani na Mesici 2/Pristani na Mesici 2-Prefix.pch";
+				INFOPLIST_FILE = "Pristani na Mesici 2/Pristani na Mesici 2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C33325D91595149200947B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pristani na Mesici 2.app/Pristani na Mesici 2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pristani na Mesici 2/Pristani na Mesici 2-Prefix.pch";
+				INFOPLIST_FILE = "Pristani na Mesici 2Tests/Pristani na Mesici 2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C33325DA1595149200947B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pristani na Mesici 2.app/Pristani na Mesici 2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pristani na Mesici 2/Pristani na Mesici 2-Prefix.pch";
+				INFOPLIST_FILE = "Pristani na Mesici 2Tests/Pristani na Mesici 2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33325991595149200947B77 /* Build configuration list for PBXProject "Pristani na Mesici 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33325D31595149200947B77 /* Debug */,
+				C33325D41595149200947B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33325D51595149200947B77 /* Build configuration list for PBXNativeTarget "Pristani na Mesici 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33325D61595149200947B77 /* Debug */,
+				C33325D71595149200947B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C33325D81595149200947B77 /* Build configuration list for PBXNativeTarget "Pristani na Mesici 2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33325D91595149200947B77 /* Debug */,
+				C33325DA1595149200947B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33325961595149200947B77 /* Project object */;
+}
